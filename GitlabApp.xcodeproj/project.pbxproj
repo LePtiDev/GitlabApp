@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C256CD7C29C249CD0045FF55 /* GitlabAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256CD7B29C249CD0045FF55 /* GitlabAppApp.swift */; };
+		C256CD7E29C249CD0045FF55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256CD7D29C249CD0045FF55 /* ContentView.swift */; };
+		C256CD8029C249CE0045FF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C256CD7F29C249CE0045FF55 /* Assets.xcassets */; };
+		C256CD8329C249CE0045FF55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C256CD8229C249CE0045FF55 /* Preview Assets.xcassets */; };
+		C256CD8D29C249CE0045FF55 /* GitlabAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256CD8C29C249CE0045FF55 /* GitlabAppTests.swift */; };
+		C256CD9729C249CE0045FF55 /* GitlabAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256CD9629C249CE0045FF55 /* GitlabAppUITests.swift */; };
+		C256CD9929C249CE0045FF55 /* GitlabAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256CD9829C249CE0045FF55 /* GitlabAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C256CD8929C249CE0045FF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C256CD7029C249CD0045FF55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C256CD7729C249CD0045FF55;
+			remoteInfo = GitlabApp;
+		};
+		C256CD9329C249CE0045FF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C256CD7029C249CD0045FF55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C256CD7729C249CD0045FF55;
+			remoteInfo = GitlabApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C256CD7829C249CD0045FF55 /* GitlabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitlabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256CD7B29C249CD0045FF55 /* GitlabAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitlabAppApp.swift; sourceTree = "<group>"; };
+		C256CD7D29C249CD0045FF55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C256CD7F29C249CE0045FF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C256CD8229C249CE0045FF55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C256CD8829C249CE0045FF55 /* GitlabAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitlabAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256CD8C29C249CE0045FF55 /* GitlabAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitlabAppTests.swift; sourceTree = "<group>"; };
+		C256CD9229C249CE0045FF55 /* GitlabAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitlabAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C256CD9629C249CE0045FF55 /* GitlabAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitlabAppUITests.swift; sourceTree = "<group>"; };
+		C256CD9829C249CE0045FF55 /* GitlabAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitlabAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C256CD7529C249CD0045FF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD8529C249CE0045FF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD8F29C249CE0045FF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C256CD6F29C249CD0045FF55 = {
+			isa = PBXGroup;
+			children = (
+				C256CD7A29C249CD0045FF55 /* GitlabApp */,
+				C256CD8B29C249CE0045FF55 /* GitlabAppTests */,
+				C256CD9529C249CE0045FF55 /* GitlabAppUITests */,
+				C256CD7929C249CD0045FF55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C256CD7929C249CD0045FF55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C256CD7829C249CD0045FF55 /* GitlabApp.app */,
+				C256CD8829C249CE0045FF55 /* GitlabAppTests.xctest */,
+				C256CD9229C249CE0045FF55 /* GitlabAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C256CD7A29C249CD0045FF55 /* GitlabApp */ = {
+			isa = PBXGroup;
+			children = (
+				C256CD7B29C249CD0045FF55 /* GitlabAppApp.swift */,
+				C256CD7D29C249CD0045FF55 /* ContentView.swift */,
+				C256CD7F29C249CE0045FF55 /* Assets.xcassets */,
+				C256CD8129C249CE0045FF55 /* Preview Content */,
+			);
+			path = GitlabApp;
+			sourceTree = "<group>";
+		};
+		C256CD8129C249CE0045FF55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C256CD8229C249CE0045FF55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C256CD8B29C249CE0045FF55 /* GitlabAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C256CD8C29C249CE0045FF55 /* GitlabAppTests.swift */,
+			);
+			path = GitlabAppTests;
+			sourceTree = "<group>";
+		};
+		C256CD9529C249CE0045FF55 /* GitlabAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C256CD9629C249CE0045FF55 /* GitlabAppUITests.swift */,
+				C256CD9829C249CE0045FF55 /* GitlabAppUITestsLaunchTests.swift */,
+			);
+			path = GitlabAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C256CD7729C249CD0045FF55 /* GitlabApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256CD9C29C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabApp" */;
+			buildPhases = (
+				C256CD7429C249CD0045FF55 /* Sources */,
+				C256CD7529C249CD0045FF55 /* Frameworks */,
+				C256CD7629C249CD0045FF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitlabApp;
+			productName = GitlabApp;
+			productReference = C256CD7829C249CD0045FF55 /* GitlabApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C256CD8729C249CE0045FF55 /* GitlabAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256CD9F29C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabAppTests" */;
+			buildPhases = (
+				C256CD8429C249CE0045FF55 /* Sources */,
+				C256CD8529C249CE0045FF55 /* Frameworks */,
+				C256CD8629C249CE0045FF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C256CD8A29C249CE0045FF55 /* PBXTargetDependency */,
+			);
+			name = GitlabAppTests;
+			productName = GitlabAppTests;
+			productReference = C256CD8829C249CE0045FF55 /* GitlabAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C256CD9129C249CE0045FF55 /* GitlabAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C256CDA229C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabAppUITests" */;
+			buildPhases = (
+				C256CD8E29C249CE0045FF55 /* Sources */,
+				C256CD8F29C249CE0045FF55 /* Frameworks */,
+				C256CD9029C249CE0045FF55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C256CD9429C249CE0045FF55 /* PBXTargetDependency */,
+			);
+			name = GitlabAppUITests;
+			productName = GitlabAppUITests;
+			productReference = C256CD9229C249CE0045FF55 /* GitlabAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C256CD7029C249CD0045FF55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C256CD7729C249CD0045FF55 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C256CD8729C249CE0045FF55 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C256CD7729C249CD0045FF55;
+					};
+					C256CD9129C249CE0045FF55 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C256CD7729C249CD0045FF55;
+					};
+				};
+			};
+			buildConfigurationList = C256CD7329C249CD0045FF55 /* Build configuration list for PBXProject "GitlabApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C256CD6F29C249CD0045FF55;
+			productRefGroup = C256CD7929C249CD0045FF55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C256CD7729C249CD0045FF55 /* GitlabApp */,
+				C256CD8729C249CE0045FF55 /* GitlabAppTests */,
+				C256CD9129C249CE0045FF55 /* GitlabAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C256CD7629C249CD0045FF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256CD8329C249CE0045FF55 /* Preview Assets.xcassets in Resources */,
+				C256CD8029C249CE0045FF55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD8629C249CE0045FF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD9029C249CE0045FF55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C256CD7429C249CD0045FF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256CD7E29C249CD0045FF55 /* ContentView.swift in Sources */,
+				C256CD7C29C249CD0045FF55 /* GitlabAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD8429C249CE0045FF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256CD8D29C249CE0045FF55 /* GitlabAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C256CD8E29C249CE0045FF55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C256CD9729C249CE0045FF55 /* GitlabAppUITests.swift in Sources */,
+				C256CD9929C249CE0045FF55 /* GitlabAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C256CD8A29C249CE0045FF55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C256CD7729C249CD0045FF55 /* GitlabApp */;
+			targetProxy = C256CD8929C249CE0045FF55 /* PBXContainerItemProxy */;
+		};
+		C256CD9429C249CE0045FF55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C256CD7729C249CD0045FF55 /* GitlabApp */;
+			targetProxy = C256CD9329C249CE0045FF55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C256CD9A29C249CE0045FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C256CD9B29C249CE0045FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C256CD9D29C249CE0045FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GitlabApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C256CD9E29C249CE0045FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GitlabApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C256CDA029C249CE0045FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitlabApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitlabApp";
+			};
+			name = Debug;
+		};
+		C256CDA129C249CE0045FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitlabApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitlabApp";
+			};
+			name = Release;
+		};
+		C256CDA329C249CE0045FF55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GitlabApp;
+			};
+			name = Debug;
+		};
+		C256CDA429C249CE0045FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quentinguerrier.GitlabAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GitlabApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C256CD7329C249CD0045FF55 /* Build configuration list for PBXProject "GitlabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256CD9A29C249CE0045FF55 /* Debug */,
+				C256CD9B29C249CE0045FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256CD9C29C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256CD9D29C249CE0045FF55 /* Debug */,
+				C256CD9E29C249CE0045FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256CD9F29C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256CDA029C249CE0045FF55 /* Debug */,
+				C256CDA129C249CE0045FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C256CDA229C249CE0045FF55 /* Build configuration list for PBXNativeTarget "GitlabAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C256CDA329C249CE0045FF55 /* Debug */,
+				C256CDA429C249CE0045FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C256CD7029C249CD0045FF55 /* Project object */;
+}
